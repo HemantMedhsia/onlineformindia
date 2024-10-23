@@ -10,8 +10,7 @@
     <!-- GSAP CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   </head>
-  <body class="bg-pink-100 text-gray-900">
-    <!-- Header -->
+  <body>
     <header
       class="bg-white shadow-lg h-24 flex items-center justify-between px-4 md:px-0"
     >
@@ -112,6 +111,57 @@
         </button>
       </div>
     </header>
+
+    <!-- term and condition -->
+
+    <div id="terms" class="container mx-auto py-12">
+      <!-- Title -->
+      <h1 class="text-4xl font-bold text-gray-800 mb-6">Term And Condition</h1>
+
+      <!-- Content Section -->
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+        <!-- Company Name -->
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">
+          Form Online India
+        </h2>
+        <p class="text-lg font-semibold text-gray-600 mb-4">
+          Your Gateway to Convenient Services
+        </p>
+
+        <!-- Terms -->
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">
+          Acceptance of Terms
+        </h3>
+        <p class="text-gray-700 mb-4">
+          By accessing or using our services, you agree to comply with these
+          terms. If you disagree, please refrain from using our services.
+        </p>
+
+        <!-- Description of Services -->
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">
+          Description of Services
+        </h3>
+        <p class="text-gray-700 mb-4">
+          We provide a variety of services acting as intermediaries. The actual
+          services are subject to the terms of the respective service providers.
+        </p>
+
+        <!-- User Registration -->
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">
+          User Registration
+        </h3>
+        <p class="text-gray-700 mb-4">
+          To access certain services, you may be required to register. You agree
+          to provide accurate and current information during the registration
+          process.
+        </p>
+
+        <!-- Footer -->
+        <p class="text-gray-600 font-semibold mt-4">
+          © Form Online India. All rights reserved.
+        </p>
+      </div>
+    </div>
 
     <!-- ====== Footer Section Start -->
     <footer
@@ -430,30 +480,5 @@
         </span>
       </div>
     </footer>
-    <!-- ====== Footer Section End -->
-
-    <!-- Include your index.js file -->
-    <script src="index.js"></script>
-
-    <!-- GSAP for Mobile Menu -->
-    <script>
-      const menuToggle = document.getElementById("menu-toggle");
-      const mobileMenu = document.getElementById("mobile-menu");
-      let isOpen = false;
-
-      menuToggle.addEventListener("click", () => {
-        if (!isOpen) {
-          gsap.to(mobileMenu, { duration: 0.5, x: 0 });
-          mobileMenu.classList.remove("hidden");
-          isOpen = true;
-        } else {
-          gsap.to(mobileMenu, { duration: 0.5, x: "100%" });
-          setTimeout(() => {
-            mobileMenu.classList.add("hidden");
-          }, 500);
-          isOpen = false;
-        }
-      });
-    </script>
   </body>
 </html>
