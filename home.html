@@ -11,7 +11,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   </head>
   <body>
-    <!-- Header -->
     <header
       class="bg-white shadow-lg h-24 flex items-center justify-between px-4 md:px-0"
     >
@@ -111,118 +110,223 @@
       </div>
     </header>
 
-    <!-- Main Part  -->
-
-    <main class="container mx-auto my-10 px-4 space-y-10">
-      <div class="container mx-auto p-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <!-- Form Section -->
-          <div class="bg-white shadow-md rounded-lg p-6">
-            <h2 class="text-3xl font-bold text-center mb-6">Contact</h2>
-            <form>
-              <div class="mb-4">
-                <label for="name" class="block text-gray-700 font-bold mb-2"
-                  >Name</label
-                >
-                <input
-                  type="text"
-                  id="name"
-                  placeholder="Write your name here"
-                  class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300"
-                />
-              </div>
-              <div class="mb-4">
-                <label for="email" class="block text-gray-700 font-bold mb-2"
-                  >Email</label
-                >
-                <input
-                  type="email"
-                  id="email"
-                  placeholder="Write your email here"
-                  class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300"
-                />
-              </div>
-              <div class="mb-4">
-                <label for="contact" class="block text-gray-700 font-bold mb-2"
-                  >Contact Number</label
-                >
-                <input
-                  type="text"
-                  id="contact"
-                  placeholder="Write your contact number here"
-                  class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300"
-                />
-              </div>
-              <div class="mb-4">
-                <label for="message" class="block text-gray-700 font-bold mb-2"
-                  >Message</label
-                >
-                <textarea
-                  id="message"
-                  rows="4"
-                  placeholder="Write your message here"
-                  class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300"
-                ></textarea>
-              </div>
-              <div class="text-center">
-                <button
-                  type="submit"
-                  class="bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-600"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
+    <section
+      id="download"
+      class="bg-[url('./img1.jpg')] bg-cover bg-center bg-gray-900 bg-opacity-50 py-20 text-left text-white"
+    >
+      <div
+        class="max-w-4xl p-10 bg-black bg-opacity-70 rounded-3xl shadow-2xl ml-10"
+      >
+        <h1 class="text-6xl font-extrabold mb-8 text-gold">Download Our App</h1>
+        <p class="text-2xl mb-12 font-light">
+          Join thousands of happy users. Available on Play Store!
+        </p>
+        <a
+          href="#"
+          class="inline-flex items-center bg-gradient-to-r from-yellow-500 to-red-500 hover:from-yellow-600 hover:to-red-600 text-white text-xl font-semibold py-4 px-10 rounded-full transition duration-300 ease-in-out shadow-2xl transform hover:scale-105"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 mr-3"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 4v16m8-8H4"
+            />
+          </svg>
+          Download App
+        </a>
+        <div class="mt-20 flex justify-start space-x-16">
+          <div class="text-left">
+            <h2 class="text-5xl font-extrabold mb-3 text-yellow-400">100K+</h2>
+            <p class="text-xl font-light text-gray-300">Total Downloads</p>
           </div>
-
-          <!-- Contact Information Card -->
-          <div class="bg-gray-50 shadow-md rounded-lg p-6">
-            <h3 class="text-2xl font-bold mb-4">Contact Us</h3>
-            <p class="mb-4">
-              If you have any questions about this Privacy Policy, You can
-              contact us:
-            </p>
-            <ul class="space-y-2">
-              <li>
-                <strong>By email:</strong>
-                <a
-                  href="mailto:onlineformindia1@gmail.com"
-                  class="text-blue-500 underline"
-                  >onlineformindia1@gmail.com</a
-                >
-              </li>
-              <li>
-                <strong>By visiting this page:</strong>
-                <a
-                  href="https://onlineformindia.com/contact.php"
-                  class="text-blue-500 underline"
-                  >https://onlineformindia.com/contact.php</a
-                >
-              </li>
-              <li>
-                <strong>By phone number:</strong>
-                <a href="tel:+918052637940" class="text-blue-500 underline"
-                  >+9180526 37940</a
-                >
-              </li>
-            </ul>
-            <p class="mt-6">
-              <strong>Thank you,</strong><br />DIVESH JAISWAL<br />ONLINE FORM
-              INDIA
-            </p>
-            <p class="mt-4">
-              <strong>Address:</strong><br />Dhaniyamau, Sarai harkhu, Badlapur,
-              Jaunpur, Uttar Pradesh, INDIA 222141
-            </p>
-            <p class="mt-4">
-              <strong>Email:</strong
-              ><br />onlineformindia1@gmail.com<br />coderstechcsag@gmail.com
-            </p>
-            <p class="mt-4"><strong>Contact:</strong><br />8052637940</p>
+          <div class="text-left">
+            <h2 class="text-5xl font-extrabold mb-3 text-yellow-400">10K+</h2>
+            <p class="text-xl font-light text-gray-300">Positive Reviews</p>
+          </div>
+          <div class="text-left">
+            <h2 class="text-5xl font-extrabold mb-3 text-yellow-400">50K+</h2>
+            <p class="text-xl font-light text-gray-300">Daily Visitors</p>
+          </div>
+          <div class="text-left">
+            <h2 class="text-5xl font-extrabold mb-3 text-yellow-400">0.02%</h2>
+            <p class="text-xl font-light text-gray-300">Uninstallation Rate</p>
           </div>
         </div>
       </div>
-    </main>
+    </section>
+
+    <!-- Unique Features Section -->
+    <section
+      id="features"
+      class="py-20 px-12 bg-gradient-to-br from-[#dfe1de] to-gray-300"
+    >
+      <div class="container mx-auto">
+        <h2 class="text-5xl font-extrabold mb-16 text-center text-gray-800">
+          Unique Features
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-16">
+          <div
+            class="bg-white p-10 rounded-3xl shadow-2xl transition-transform transform hover:scale-105 hover:shadow-3xl"
+          >
+            <div class="relative w-full h-56 mb-6">
+              <img
+                src="./IntegrationandAuthentication.png"
+                alt="Integration and Authentication"
+                class="w-full h-full object-cover rounded-3xl"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-3xl opacity-70"
+              ></div>
+            </div>
+            <h3 class="text-4xl font-bold mb-4 text-yellow-600">
+              Integration and Authentication
+            </h3>
+            <p class="text-lg text-gray-700 leading-relaxed">
+              Seamless integration with databases and authentication systems for
+              secure identity verification. Users can verify their identities
+              securely and access various services directly through the app,
+              eliminating the need for manual verification processes and
+              enhancing efficiency.
+            </p>
+          </div>
+          <div
+            class="bg-white p-10 rounded-3xl shadow-2xl transition-transform transform hover:scale-105 hover:shadow-3xl"
+          >
+            <div class="relative w-full h-56 mb-6">
+              <img
+                src="./IntegrationandAuthentication.png"
+                alt="Real-time Document Status Updates"
+                class="w-full h-full object-cover rounded-3xl"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-3xl opacity-70"
+              ></div>
+            </div>
+            <h3 class="text-4xl font-bold mb-4 text-yellow-600">
+              Real-time Document Status Updates
+            </h3>
+            <p class="text-lg text-gray-700 leading-relaxed">
+              Get real-time updates on the progress of your submitted documents
+              through notifications. Unlike traditional methods, users receive
+              updates at every stage, from submission to verification and
+              approval.
+            </p>
+          </div>
+          <div
+            class="bg-white p-10 rounded-3xl shadow-2xl transition-transform transform hover:scale-105 hover:shadow-3xl"
+          >
+            <div class="relative w-full h-56 mb-6">
+              <img
+                src="./IntegrationandAuthentication.png"
+                alt="AI Document Verification"
+                class="w-full h-full object-cover rounded-3xl"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-3xl opacity-70"
+              ></div>
+            </div>
+            <h3 class="text-4xl font-bold mb-4 text-yellow-600">
+              AI Document Verification
+            </h3>
+            <p class="text-lg text-gray-700 leading-relaxed">
+              Utilize AI technology for document verification to streamline the
+              process and ensure accuracy. The AI system automatically verifies
+              the authenticity of documents, reducing errors and discrepancies
+              while improving efficiency.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mobile App Screenshots Section -->
+    <section
+      id="screenshots"
+      class="py-20 bg-gradient-to-t from-blue-200 to-gray-300"
+    >
+      <div class="container mx-auto">
+        <h2 class="text-5xl font-extrabold mb-16 text-center text-white">
+          App Screenshots
+        </h2>
+        <div class="overflow-hidden relative">
+          <div
+            class="flex gap-8 overflow-x-auto snap-x snap-mandatory scrollbar-hide"
+          >
+            <div class="flex-none w-full md:w-1/4 snap-center">
+              <div
+                class="bg-white rounded-3xl shadow-2xl transition-transform transform hover:shadow-3xl"
+              >
+                <div class="relative w-full h-[600px] mb-6">
+                  <img
+                    src="./s1.jpg"
+                    alt="App Screenshot 1"
+                    class="w-full h-full object-cover rounded-3xl"
+                  />
+                  <div
+                    class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-3xl opacity-60"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-none w-full md:w-1/4 snap-center">
+              <div
+                class="bg-white rounded-3xl shadow-2xl transition-transform transform hover:shadow-3xl"
+              >
+                <div class="relative w-full h-[600px] mb-6">
+                  <img
+                    src="./s2.jpg"
+                    alt="App Screenshot 2"
+                    class="w-full h-full object-cover rounded-3xl"
+                  />
+                  <div
+                    class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-3xl opacity-60"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-none w-full md:w-1/4 snap-center">
+              <div
+                class="bg-white rounded-3xl shadow-2xl transition-transform transform hover:shadow-3xl"
+              >
+                <div class="relative w-full h-[600px] mb-6">
+                  <img
+                    src="./s3.jpg"
+                    alt="App Screenshot 3"
+                    class="w-full h-full object-cover rounded-3xl"
+                  />
+                  <div
+                    class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-3xl opacity-60"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-none w-full md:w-1/4 snap-center">
+              <div
+                class="bg-white rounded-3xl shadow-2xl transition-transform transform hover:shadow-3xl"
+              >
+                <div class="relative w-full h-[600px] mb-6">
+                  <img
+                    src="./s4.jpg"
+                    alt="App Screenshot 4"
+                    class="w-full h-full object-cover rounded-3xl"
+                  />
+                  <div
+                    class="absolute inset-0 bg-gradient-to-t from-black to-transparent rounded-3xl opacity-60"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- ====== Footer Section Start -->
     <footer
@@ -237,7 +341,7 @@
                 class="mb-6 inline-block max-w-[160px]"
               >
                 <img
-                  src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
+                  src="formimage.webp"
                   alt="logo"
                   class="max-w-full dark:hidden"
                 />
@@ -283,7 +387,7 @@
                     </defs>
                   </svg>
                 </span>
-                <span>+012 (345) 678 99</span>
+                <span>+91 8052637940</span>
               </p>
             </div>
           </div>
@@ -295,34 +399,42 @@
               <ul class="space-y-3">
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="home.html"
                     class="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
                   >
-                    SaaS Development
+                    Home
                   </a>
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="about.html"
                     class="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
                   >
-                    Our Products
+                    About
                   </a>
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="contact.html"
                     class="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
                   >
-                    User Flow
+                    Contact
                   </a>
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="privacy.html"
                     class="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
                   >
-                    User Strategy
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="term.html"
+                    class="inline-block text-base leading-loose text-body-color hover:text-primary dark:text-dark-6"
+                  >
+                    Term & Condition
                   </a>
                 </li>
               </ul>
@@ -369,6 +481,7 @@
               </ul>
             </div>
           </div>
+
           <div class="w-full px-4 sm:w-1/2 lg:w-2/12">
             <div class="w-full mb-10">
               <h4 class="text-lg font-semibold text-dark dark:text-white mb-9">
@@ -410,6 +523,7 @@
               </ul>
             </div>
           </div>
+
           <div class="w-full px-4 sm:w-1/2 lg:w-3/12">
             <div class="w-full mb-10">
               <h4 class="text-lg font-semibold text-dark dark:text-white mb-9">
@@ -478,7 +592,7 @@
                 </a>
               </div>
               <p class="text-base text-body-color dark:text-dark-6">
-                &copy; 2025 TailGrids
+                &copy; 2025 Online Form India
               </p>
             </div>
           </div>
