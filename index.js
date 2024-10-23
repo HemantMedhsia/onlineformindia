@@ -1,2 +1,9 @@
-// GSAP animation example
-gsap.to("div", { duration: 2, x: 100, opacity: 0.5 });
+document.addEventListener("DOMContentLoaded", () => {
+    const menuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+  
+    menuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  });
+  
